@@ -63,16 +63,6 @@
             background-color: #415846;
             color: #999999;
         }
-        #opcoes 
-        {
-            position: absolute;
-            bottom: 0;
-            color: #999999;
-            width: 100%;
-            height: 100px;    
-            text-align: center;
-            line-height: 10px;
-        }
     </style>  
 
 </head>
@@ -104,9 +94,5 @@
 
                   <button type="submit" class="btn btn-outline-dark">enviar</button>
 
-            <div class="row mt-2" id="opcoes">
-                <p><a>Esqueci minha<a href="recuperacao"> senha.</a></a></p> <br>
-                <p><a>Não possui uma conta?<a href="cadastro"> cadastre-se.</a></a></p>
-            </div>
 </body>
 </html> 
