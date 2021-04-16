@@ -17,9 +17,11 @@ class CreateUsuariosTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string("nome", 100);
+            $table->string("cnpj", 100);
+            $table->string("facebook", 100);
+            $table->string("instagram", 100);
             $table->string("email", 100);
-            $table->string("inscricao", 100);
-            $table->string("cpf", 100);
+            $table->string("twitter", 100);
             $table->string("senha", 100);
         });
     }

@@ -6,43 +6,18 @@ use Illuminate\Http\Request;
 
 class SaudeController extends Controller
 {
-    public function cadastro()
+    public function telaServidor()
     {
-        return view ('cadastro');
+        return view ('telaservidor');
     }
 
-    public  function salvar (Request $request)
+    public function telaCliente()
     {
-        $nome = $request->nome;
-        $cnpj = $request->cnpj;
-        $bairro = $request->bairro;
-        $rua = $request->rua;
-        $numero = $request->numero;
-        $complemento = $request->complemento;
-        $instagram = $request->instagram;
-        $facebook = $request->facebook;
-        $email = $request->email;
-        $twitter = $request->twitter;
-        $senha = $request->senha; 
-        
-        return view ('welcome');
+        return view ('telacliente');
     }
 
-    public function login()
+    public function sobre()
     {
-        return view ('login');
-    }
-
-    public  function salvarlogin (Request $request)
-    {
-        $cnpj = $request->cnpj;
-        $senha = $request->senha; 
-        
-        return view ('welcome');
-    }
-
-    public function recuperacao()
-    {
-        return view ('recuperacao');
+        return view ('usuario.sobre');
     }
 }
